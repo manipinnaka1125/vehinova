@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'; // Import styles for Navbar
-import  mainimg from '/Users/swaro/OneDrive/Desktop/MSWD/vehinova/vehinova/src/mainimg.jpg'; // Adjust the path as necessary
+import  mainimg from '../mainimg.jpg'; // Adjust the path as necessary
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
