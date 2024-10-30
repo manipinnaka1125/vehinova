@@ -19,6 +19,7 @@ const Verify = () => {
     <div className="verify">
       <h1>Internship Verification</h1>
       {verified && (
+        
         <div className="verification-card success">
           <p><strong>Verification Successful!</strong></p>
           <p><strong>CIN:</strong> {certificateDetails.CIN}</p>

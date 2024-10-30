@@ -5,14 +5,14 @@ const Internships = () => {
   const internshipData = [
     {
       title: "Software Engineering Intern",
-      company: "XYZ Company",
+      company: "AMAZON Company",
       overview: "Work on innovative software development projects, collaborate with teams, and gain hands-on experience in coding and software lifecycle.",
       duration: "May - June 2024",
       skills: "Java, Python, Git",
     },
     {
       title: "Marketing Intern",
-      company: "ABC Corp",
+      company: "Google ",
       overview: "Assist in developing marketing campaigns, manage social media platforms, and conduct market research to understand customer needs.",
       duration: "June - July 2024",
       skills: "SEO, Content Creation, Social Media",
