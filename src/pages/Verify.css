@@ -3,6 +3,7 @@
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  
   font-family: Arial, sans-serif;
   animation: fadeIn 1s ease-in;
 }
@@ -39,7 +40,7 @@
   transform: translate(-50%, -50%) scale(3);
   z-index: 0;
   opacity: 0;
-  animation: tickFadeIn 1s ease-in-out forwards 0.3s;
+  animation: tickFadeIn 2s ease-in-out forwards 0.3s;
 }
 
 /* Card text styling */

@@ -45,7 +45,7 @@
       display: none; /* Hide nav links by default on small screens */
       flex-direction: column; /* Stack links vertically */
       position: absolute;
-      background-color: #0044cc;
+      background-color: #ffffff;
       top: 60px; /* Adjust this based on your navbar height */
       right: 0;
       width: 100%; /* Full width on mobile */
