@@ -1,0 +1,87 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about h1, .about h2, .about h3, .about h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .internship-list {
+    margin: 20px 0;
+  }
+  
+  .internship-list h4 {
+    margin: 10px 0;
+  }
+  
+  .internship-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .apply-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #45a049;
+  }
+  
+  .features-list {
+    margin: 20px 0;
+  }
+  
+  .features-list li {
+    margin-bottom: 10px;
+  }
+  
+  .faq {
+    margin: 20px 0;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-top: 10px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .send-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  

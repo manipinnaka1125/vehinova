@@ -1,0 +1,68 @@
+/* Main container styling */
+.verify {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Heading styling */
+.verify h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Verification card styling */
+.verification-card {
+  position: relative;
+  padding: 20px;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  overflow: hidden;
+  text-align: left;
+  animation: cardSlideUp 0.8s ease-out;
+}
+
+/* Green tick background */
+.verification-card.success::before {
+  content: '✔';
+  font-size: 100px;
+  color: rgb(0, 254, 59); /* Transparent green */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  z-index: 0;
+  opacity: 0;
+  animation: tickFadeIn 1s ease-in-out forwards 0.3s;
+}
+
+/* Card text styling */
+.verification-card p {
+  margin: 10px 0;
+  z-index: 1;
+  position: relative;
+}
+
+/* Fade-in animation for container */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slide-up animation for the card */
+@keyframes cardSlideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Tick symbol fade-in animation */
+@keyframes tickFadeIn {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(1.2); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1.5); }
+}

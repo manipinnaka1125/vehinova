@@ -1,0 +1,71 @@
+.navbar {
+    background-color: #0044cc;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    flex: 1; /* Adjusts the logo's flex property */
+  }
+  
+  .logo-img {
+    height: 50px; /* Adjust height to fit your design */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .nav-links {
+    display: flex;
+    flex: 2; /* Adjusts the nav links' flex property */
+    justify-content: flex-end;
+  }
+  
+  .nav-links li {
+    margin-left: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  .hamburger {
+    display: none; /* Hide hamburger by default */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; /* Hide nav links by default on small screens */
+      flex-direction: column; /* Stack links vertically */
+      position: absolute;
+      background-color: #0044cc;
+      top: 60px; /* Adjust this based on your navbar height */
+      right: 0;
+      width: 100%; /* Full width on mobile */
+    }
+  
+    .nav-links.active {
+      display: flex; /* Show when active */
+    }
+  
+    .hamburger {
+      display: flex; /* Show hamburger on small screens */
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    .hamburger span {
+      background: white;
+      height: 3px;
+      margin: 3px 0;
+      width: 25px;
+    }
+  }
+  
